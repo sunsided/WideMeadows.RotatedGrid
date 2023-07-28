@@ -8,6 +8,22 @@
     </PropertyGroup>
     
     <PropertyGroup>
+        <Version>0.1.0</Version>
+        <Authors>Markus Mayer</Authors>
+        <Title>WideMeadows.RotatedGrid</Title>
+        <Description>Rotated grid calculations for CMYK halftone dithering and more.</Description>
+        <PackageId>RotatedGrid</PackageId>
+        <PackageTags>halftone;image-processing;grid</PackageTags>
+        <PackageLicenseExpression>EUPL-1.2</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\LICENSE.md" Pack="true" PackagePath=""/>
+        <None Include="..\..\README.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
+    
+    <PropertyGroup>
         <RepositoryUrl>https://github.com/sunsided/WideMeadows.RotatedGrid.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
