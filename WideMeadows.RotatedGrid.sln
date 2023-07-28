@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A70D2C59-2611-4844-9B1D-857EAD050644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WideMeadows.RotatedGrid", "src\WideMeadows.RotatedGrid\WideMeadows.RotatedGrid.csproj", "{56BA8287-C4F4-4F25-B61C-BF2DBF5D5518}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B883776A-B5AC-4DC4-A2C1-E84E6D234418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WideMeadows.RotatedGrid.Tests", "test\WideMeadows.RotatedGrid.Tests\WideMeadows.RotatedGrid.Tests.csproj", "{95672C8D-8430-4801-8798-91039ADB0D7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0CAEE2DE-527F-44D2-8338-BFC8AF5A307C}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56BA8287-C4F4-4F25-B61C-BF2DBF5D5518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BA8287-C4F4-4F25-B61C-BF2DBF5D5518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BA8287-C4F4-4F25-B61C-BF2DBF5D5518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BA8287-C4F4-4F25-B61C-BF2DBF5D5518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95672C8D-8430-4801-8798-91039ADB0D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95672C8D-8430-4801-8798-91039ADB0D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95672C8D-8430-4801-8798-91039ADB0D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95672C8D-8430-4801-8798-91039ADB0D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56BA8287-C4F4-4F25-B61C-BF2DBF5D5518} = {A70D2C59-2611-4844-9B1D-857EAD050644}
+		{95672C8D-8430-4801-8798-91039ADB0D7E} = {B883776A-B5AC-4DC4-A2C1-E84E6D234418}
+	EndGlobalSection
+EndGlobal
