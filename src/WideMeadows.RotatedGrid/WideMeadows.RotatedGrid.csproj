@@ -16,13 +16,20 @@
         <PackageTags>halftone;image-processing;grid</PackageTags>
         <PackageLicenseExpression>EUPL-1.2</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackRelease>true</PackRelease>
+        <PublishRelease>true</PublishRelease>
     </PropertyGroup>
 
     <ItemGroup>
         <None Include="..\..\LICENSE.md" Pack="true" PackagePath=""/>
         <None Include="..\..\README.md" Pack="true" PackagePath=""/>
     </ItemGroup>
-    
+
+    <PropertyGroup>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+
     <PropertyGroup>
         <RepositoryUrl>https://github.com/sunsided/WideMeadows.RotatedGrid.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
