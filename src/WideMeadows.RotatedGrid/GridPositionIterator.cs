@@ -20,6 +20,16 @@ public sealed class GridPositionIterator : IEnumerator<GridCoord>
             throw new ArgumentOutOfRangeException(nameof(alpha), "The angle must be in range 0..PI/2 (zero to 90 degrees)");
         }
 
+        if (dx <= 0.0F)
+        {
+            throw new ArgumentOutOfRangeException(nameof(dx), "The x step (dx) must be a positive value");
+        }
+
+        if (dy <= 0.0F)
+        {
+            throw new ArgumentOutOfRangeException(nameof(dy), "The y step (dy) must be a positive value");
+        }
+
         var (sin, cos) = alphaNormalized.SinCos();
 
         var tl = new Vector2(0.0F, 0.0F);
@@ -29,7 +39,7 @@ public sealed class GridPositionIterator : IEnumerator<GridCoord>
 
         _invSin = -sin;
         _invCos = cos;
-        _inner = new OptimalIterator(tl, tr, bl, br, alphaNormalized, dx, dx, x0, y0);
+        _inner = new OptimalIterator(tl, tr, bl, br, alphaNormalized, dx, dy, x0, y0);
     }
 
     /// <inheritdoc />
