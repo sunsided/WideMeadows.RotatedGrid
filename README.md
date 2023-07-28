@@ -1,4 +1,4 @@
-# Rotated grids in C#
+# Rotated grids in .NET
 
 🎨 _For halftone dithering and more._
 
